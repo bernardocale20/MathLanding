@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Papelaria Matias</title>
+        <link rel="icon" href="">
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,height=device-height,target-densitydpi=device-dpi,user-scalable=yes">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	
+        
+        <style type="text/css">
+                                body
+                                {
+                                    background-image: url("a.jpg");
+                                    background-size: cover;
+                                    font-family: 'Lucida Console', monospace;
+                                    animation-name: anim;
+                                    animation-duration: 2s;
+                                }
+
+                                .images
+                                {
+                                    text-align: center;
+                                }
+
+                                .images img
+                                {
+                                    border-radius: 60px;
+                                    margin-bottom: 20px;
+                                }
+
+                                .cont
+                                {
+                                    margin-top: 50px;
+                                    text-align: center;
+                                }
+
+                                .cont img{
+                                    width: 85%;
+                                }         
+                                
+                                .images h3
+                                {
+                                    font-size: 25px;
+                                    background-color: rgba(0,191,255, 0.7);
+                                    border-radius: 60px;
+                                    padding: 15px;  
+                                }
+
+                                .cont h3
+                                {
+                                    font-size: 25px;
+                                    background-color: rgba(0,191,255, 0.7);
+                                    border-radius: 60px;
+                                    padding: 15px;
+                                }
+
+
+                                .mapa h3
+                                {
+                                    font-size: 25px;
+                                    text-align: center;
+                                    background-color: rgba(0,191,255, 0.7);
+                                    border-radius: 60px;
+                                    padding: 15px;
+                                }
+
+                                .mapeamento
+                                {
+                                    vertical-align: center;
+                                }
+
+                                @keyframes anim
+                                {
+                                    0% {opacity: 0; transform: translate(0px,20px)}
+                                    100% {opacity: 1; transform: translate(0px,0px)}
+                                }
+
+
+                                @keyframes animm
+                                {
+                                    0% {opacity: 0; transform: translate(0px,-20px)}
+                                    100% {opacity: 1; transform: translate(0px,0px)}
+
+                                }
+
+                                @media (min-width: 768px)
+                                {
+                                    
+                                .titulo
+                                {
+                                    margin: auto;
+                                    margin-top: 50px;
+                                    margin-bottom: 50px;
+                                    width: 80%;
+                                    text-align: center;
+                                    background-color: rgba(0,191,255, 0.7);
+                                    border-radius: 60px;
+                                }
+
+                                .titulo h1
+                                {
+                                    font-size: 100px;
+                                    text-shadow: 8px 8px #4F4F4F;
+                                }
+
+                                .titulo h3
+                                {
+                                    font-size:60px;
+                                    text-shadow: 4px 4px #4F4F4F;
+                                }
+
+                                .titulo h4{
+                                    padding-bottom: 20px;
+                                    text-shadow: 2px 2px #4F4F4F;
+                                }
+
+                                }
+
+                                @media (max-width: 767px) 
+                                {   
+                                .cont
+                                {
+                                    margin-bottom: 15px;
+                                }
+
+                                   
+                                .titulo
+                                {
+                                    margin: auto;
+                                    margin-top: 25px;
+                                    margin-bottom: 25px;
+                                    width: 85%;
+                                    text-align: center;
+                                    background-color: rgba(0,191,255, 0.7);
+                                    border-radius: 30px;
+                                }
+
+                                .titulo h1
+                                {
+                                    font-size: 30px;
+                                }
+
+                                .titulo h3
+                                {
+                                    font-size:20px;
+                                }
+
+                                .titulo h4{
+                                    font-size: 16px;
+                                    padding-bottom: 15px;
+                                }
+
+                                }
+
+		</style>
+    
+    
+    </head>
+
+	<body>
+        <div class="container-fluid">
+            <div class="titulo">
+                <h1>Comercial Matias</h1>
+                <h3>Loja de Conveniência e Papelaria</h3>
+                <h3>Visite nossa loja!!</h3>
+                <h4>Artigos de Papelaria, Recargas e Muito Mais!!</h3>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="images">
+                        <h3>Serviços de Recarga: </h3><br>
+                        <img src="1.png"><br>
+                        <img src="2.png">
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+
+                    <div class="mapa">
+                        <h3>Onde nos achar: </h3><br>
+                        <div class="mapeamento" id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+                        
+                        <script>(function () {
+                                var setting = {"height":475,"width":550,"zoom":15,"queryString":"Rua Professor Nogueira, 467 - Parque Araxá, Fortaleza - CE, Brasil","place_id":"ChIJ_7F9pHRJxwcRX1VbDZfO7yU","satellite":false,"centerCoord":[-3.7367536510371595,-38.54914350000001],"cid":"0x25efce970d5b555f","lang":"pt","cityUrl":"/brazil/fortaleza-18938","cityAnchorText":"","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"361787"};
+                                var d = document;
+                            var s = d.createElement('script');
+                                s.src = 'https://1map.com/js/script-for-user.js?embed_id=361787';
+                                s.async = true;
+                                s.onload = function (e) {window.OneMap.initMap(setting)};
+                            var to = d.getElementsByTagName('script')[0];
+                            to.parentNode.insertBefore(s, to);})();
+                        </script>
+                            <a href="https://1map.com/pt/map-embed">1 Map</a>
+                          </div>
+                    </div>
+
+                    <div class="cont">
+                        <h3>Contato: </h3>
+                        <img src="a.png">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/cmatiasfortaleza#">
+                        <img src="b.jpg">
+                    </div>
+                   
+
+                    
+                </div>
+            </div>
+        </div>
+
+
+				
+	</body>
+
+</html>
